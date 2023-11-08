@@ -1,0 +1,77 @@
+<methodCall>
+  <methodName>check_question_answer</methodName>
+  <params>
+    <param>
+      <struct>
+        <member>
+          <name>topic</name>
+          <value>DTD</value>
+        </member>
+
+        <member>
+          <name>answer</name>
+          <value>
+            <int>4</int>
+          </value>
+        </member>
+
+        <member>
+          <name>question-number</name>
+          <value>4</value>
+        </member>
+      </struct>
+    </param>
+  </params>
+</methodCall>
+
+
+
+<!-- #1 -->
+<!-- curl -d "<methodCall><methodName>get_topics</methodName></methodCall>" http://kappa.cs.petrsu.ru/~zhidov/xml-7-lab/test.php -->
+
+
+
+<!-- #2 -->
+<!-- curl -d "<methodCall>
+  <methodName>get_random_question_by_topic</methodName>
+  <params>
+    <param>
+      <struct>
+        <member>
+          <name>topic</name>
+          <value>DTD</value>
+        </member>
+      </struct>
+    </param>
+  </params>
+</methodCall>
+" http://kappa.cs.petrsu.ru/~zhidov/xml-7-lab/test.php -->
+
+
+<!-- #3 -->
+<!-- curl -d "<methodCall>
+  <methodName>check_question_answer</methodName>
+  <params>
+    <param>
+      <struct>
+        <member>
+          <name>topic</name>
+          <value>DTD</value>
+        </member>
+
+        <member>
+          <name>answer</name>
+          <value>
+            <int>1</int>
+          </value>
+        </member>
+
+        <member>
+          <name>question-number</name>
+          <value>3</value>
+        </member>
+      </struct>
+    </param>
+  </params>
+</methodCall>
+" http://kappa.cs.petrsu.ru/~zhidov/xml-7-lab/test.php -->

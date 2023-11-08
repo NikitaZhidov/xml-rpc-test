@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rootElem>
+  <quiz name="XML">
+    <quiz-title>XML Quiz</quiz-title>
+
+    <question>
+      <question-text>What does the XML abbreviation stand for?</question-text>
+
+      <answer-options>
+        <answer-option>Extensible Markup Language</answer-option>
+        <answer-option>Extraordinary Markup Language</answer-option>
+        <answer-option>Extended Markup Language</answer-option>
+      </answer-options>
+
+      <correct-answer>1</correct-answer>
+    </question>
+
+    <question>
+      <question-text>Which of the following characters should be escaped in XML?</question-text>
+
+      <answer-options>
+        <answer-option>&lt; and &gt;</answer-option>
+        <answer-option>&amp; and &quot;</answer-option>
+        <answer-option>/ and -</answer-option>
+      </answer-options>
+
+      <correct-answer>3</correct-answer>
+    </question>
+
+    <question>
+      <question-text>Which XML component defines the document's structure?</question-text>
+
+      <answer-options>
+        <answer-option>Elements (tags)</answer-option>
+        <answer-option>Attributes</answer-option>
+        <answer-option>DTD (Document Type Definition)</answer-option>
+      </answer-options>
+
+      <correct-answer>3</correct-answer>
+    </question>
+
+    <question>
+      <question-text>What data types can be stored in XML attributes?</question-text>
+
+      <answer-options>
+        <answer-option>Text only</answer-option>
+        <answer-option>Numbers and dates</answer-option>
+        <answer-option>Images and audio files</answer-option>
+      </answer-options>
+
+      <correct-answer>1</correct-answer>
+    </question>
+
+    <question>
+      <question-text>Which of the following XML documents is valid?</question-text>
+
+      <answer-options>
+        <answer-option>&lt;book&gt;&lt;title&gt;My Book&lt;/title&gt;&lt;/book&gt;</answer-option>
+        <answer-option>&lt;book&gt;&lt;title&gt;My Book&lt;/book&gt;&lt;/title&gt;</answer-option>
+        <answer-option>&lt;book&gt;&lt;title&gt;&lt;/title&gt;&lt;/book&gt;</answer-option>
+      </answer-options>
+
+      <correct-answer>1</correct-answer>
+    </question>
+  </quiz>
+
+  <quiz name="DTD">
+    <quiz-title>DTD Quiz</quiz-title>
+
+    <question>
+      <question-text>What types of data can be described using DTD?</question-text>
+      <answer-options>
+        <answer-option>Text data only</answer-option>
+        <answer-option>Text data and numbers</answer-option>
+        <answer-option>Any data</answer-option>
+      </answer-options>
+      <correct-answer>2</correct-answer>
+    </question>
+
+    <question>
+      <question-text>What does the #REQUIRED attribute in DTD mean?</question-text>
+      <answer-options>
+        <answer-option>Attribute is required</answer-option>
+        <answer-option>Attribute is optional</answer-option>
+        <answer-option>Attribute has a default value</answer-option>
+      </answer-options>
+      <correct-answer>1</correct-answer>
+    </question>
+
+    <question>
+      <question-text>Which DTD element is used to define attributes?</question-text>
+      <answer-options>
+        <answer-option>ATTLIST</answer-option>
+        <answer-option>ELEMENT</answer-option>
+        <answer-option>ENTITY</answer-option>
+      </answer-options>
+      <correct-answer>1</correct-answer>
+    </question>
+
+    <question>
+      <question-text>What are the main roles of DTD in an XML document?</question-text>
+      <answer-options>
+        <answer-option>Defining the structure, describing data types, and validating</answer-option>
+        <answer-option>Creating a graphical user interface</answer-option>
+        <answer-option>Storing data</answer-option>
+      </answer-options>
+      <correct-answer>1</correct-answer>
+    </question>
+
+    <question>
+      <question-text>What does CDATA mean in DTD?</question-text>
+      <answer-options>
+        <answer-option>Character Data</answer-option>
+        <answer-option>Conditional Data</answer-option>
+        <answer-option>Content Data</answer-option>
+      </answer-options>
+      <correct-answer>1</correct-answer>
+    </question>
+  </quiz>
+
+  <quiz name="XPath_XLink_XPointer">
+    <quiz-title>XPath, XLink, XPointer</quiz-title>
+
+    <question>
+      <question-text>What is XLink in XML?</question-text>
+      <answer-options>
+        <answer-option>It's a query language for XML documents.</answer-option>
+        <answer-option>It's a specification for creating hyperlinks in XML documents.</answer-option>
+        <answer-option>It's a format for storing images in XML.</answer-option>
+      </answer-options>
+      <correct-answer>2</correct-answer>
+    </question>
+
+    <question>
+      <question-text>Which XML element is used for creating links with XLink?</question-text>
+      <answer-options>
+        <answer-option>&lt;a&gt;</answer-option>
+        <answer-option>&lt;link&gt;</answer-option>
+        <answer-option>&lt;href&gt;</answer-option>
+      </answer-options>
+      <correct-answer>1</correct-answer>
+    </question>
+
+    <question>
+      <question-text>What is the purpose of XPath in XML?</question-text>
+      <answer-options>
+        <answer-option>For creating links in XML documents.</answer-option>
+        <answer-option>For searching and navigating elements and attributes in XML documents.</answer-option>
+        <answer-option>For defining styles for XML elements.</answer-option>
+      </answer-options>
+      <correct-answer>2</correct-answer>
+    </question>
+
+    <question>
+      <question-text>What does the XPointer abbreviation mean in XML?</question-text>
+      <answer-options>
+        <answer-option>XML Pointer</answer-option>
+        <answer-option>XPath Pointer</answer-option>
+        <answer-option>Extended Pointer</answer-option>
+      </answer-options>
+      <correct-answer>2</correct-answer>
+    </question>
+
+    <question>
+      <question-text>How can XPointer be used in XML?</question-text>
+      <answer-options>
+        <answer-option>For determining the structure of an XML document.</answer-option>
+        <answer-option>For specifying exact positions within an XML document, including fragments
+          and attributes.</answer-option>
+        <answer-option>For creating hyperlinks in XML documents.</answer-option>
+      </answer-options>
+      <correct-answer>2</correct-answer>
+    </question>
+  </quiz>
+
+  <quiz name="XQuery">
+    <quiz-title>XQuery Quiz</quiz-title>
+
+    <question>
+      <question-text>What does XQuery represent in the context of XML?</question-text>
+      <answer-options>
+        <answer-option>A query language for searching and processing XML data.</answer-option>
+        <answer-option>A markup language for marking up XML documents.</answer-option>
+        <answer-option>A programming language for creating web servers.</answer-option>
+        <answer-option>A database management system.</answer-option>
+        <answer-option>A data model for storing textual data.</answer-option>
+      </answer-options>
+      <correct-answer>1</correct-answer>
+    </question>
+
+    <question>
+      <question-text>What operations can be performed with XQuery?</question-text>
+      <answer-options>
+        <answer-option>Searching, filtering, and transforming XML data.</answer-option>
+        <answer-option>Creating animations and graphics in XML format.</answer-option>
+        <answer-option>Creating styles for XML documents.</answer-option>
+        <answer-option>Publishing documents on social networks.</answer-option>
+        <answer-option>Creating websites.</answer-option>
+      </answer-options>
+      <correct-answer>1</correct-answer>
+    </question>
+
+    <question>
+      <question-text>What types of data does XQuery support?</question-text>
+      <answer-options>
+        <answer-option>Numbers, strings, boolean values, and dates.</answer-option>
+        <answer-option>Numbers and strings only.</answer-option>
+        <answer-option>Boolean values and dates only.</answer-option>
+        <answer-option>Boolean values and numbers only.</answer-option>
+        <answer-option>All of the above options.</answer-option>
+      </answer-options>
+      <correct-answer>1</correct-answer>
+    </question>
+
+    <question>
+      <question-text>What functions can be used in XQuery?</question-text>
+      <answer-options>
+        <answer-option>Functions for working with dates and times, mathematical functions, string
+          functions, and many more.</answer-option>
+        <answer-option>Mathematical functions only.</answer-option>
+        <answer-option>String functions only.</answer-option>
+        <answer-option>Functions for working with graphics and animations.</answer-option>
+        <answer-option>Functions for working with XML structures only.</answer-option>
+      </answer-options>
+      <correct-answer>1</correct-answer>
+    </question>
+
+    <question>
+      <question-text>What capabilities does XQuery provide for data filtering?</question-text>
+      <answer-options>
+        <answer-option>Sorting only.</answer-option>
+        <answer-option>Keyword-based search only.</answer-option>
+        <answer-option>Sorting, condition-based filtering, and data combination.</answer-option>
+        <answer-option>Aggregation of data only.</answer-option>
+        <answer-option>Regular expression-based search only.</answer-option>
+      </answer-options>
+      <correct-answer>3</correct-answer>
+    </question>
+  </quiz>
+
+  <quiz name="XSL">
+    <quiz-title>XSL Quiz</quiz-title>
+    <question>
+      <question-text>What does XSL represent in the context of XML?</question-text>
+      <answer-options>
+        <answer-option>A query language for searching and processing XML data.</answer-option>
+        <answer-option>A language for describing the structure and transformation of XML documents.</answer-option>
+        <answer-option>A programming language for creating web servers.</answer-option>
+        <answer-option>A database management system.</answer-option>
+        <answer-option>A language for creating styles and formatting XML documents.</answer-option>
+      </answer-options>
+      <correct-answer>2</correct-answer>
+    </question>
+
+    <question>
+      <question-text>Which tool is typically used for transforming XML using XSLT?</question-text>
+      <answer-options>
+        <answer-option>XML Parser</answer-option>
+        <answer-option>XML Editor</answer-option>
+        <answer-option>XSL Transformer</answer-option>
+        <answer-option>XPath Query Engine</answer-option>
+        <answer-option>XML Generator</answer-option>
+      </answer-options>
+      <correct-answer>3</correct-answer>
+    </question>
+
+    <question>
+      <question-text>What are the main tasks that can be accomplished with XSLT?</question-text>
+      <answer-options>
+        <answer-option>Transforming and formatting XML data.</answer-option>
+        <answer-option>Creating a graphical interface for XML applications.</answer-option>
+        <answer-option>Executing SQL queries on databases.</answer-option>
+        <answer-option>Creating XML schemas and DTDs for XML document validation.</answer-option>
+        <answer-option>Working with multi-dimensional arrays in XML.</answer-option>
+      </answer-options>
+      <correct-answer>1</correct-answer>
+    </question>
+
+    <question>
+      <question-text>What types of output formats can be generated using XSLT?</question-text>
+      <answer-options>
+        <answer-option>Only HTML.</answer-option>
+        <answer-option>Only JSON.</answer-option>
+        <answer-option>HTML, XML, Text, JSON, and others.</answer-option>
+        <answer-option>Only XML.</answer-option>
+        <answer-option>Only PDF.</answer-option>
+      </answer-options>
+      <correct-answer>3</correct-answer>
+    </question>
+
+    <question>
+      <question-text>Which tools or languages are associated with XSLT for transforming and
+        processing XML data?</question-text>
+      <answer-options>
+        <answer-option>XPath, XQuery, XPointer.</answer-option>
+        <answer-option>HTML, CSS, JavaScript.</answer-option>
+        <answer-option>Java, C#, Python.</answer-option>
+        <answer-option>SQL, NoSQL, MongoDB.</answer-option>
+        <answer-option>JSON, YAML, CSV.</answer-option>
+      </answer-options>
+      <correct-answer>1</correct-answer>
+    </question>
+  </quiz>
+
+  <quiz name="XSL-FO">
+    <quiz-title>XSL-FO Quiz</quiz-title>
+    <question>
+      <question-text>What does XSL-FO stand for in the context of XML?</question-text>
+      <answer-options>
+        <answer-option>Extensible Stylesheet Language for Formatting Objects</answer-option>
+        <answer-option>XML Styling Language</answer-option>
+        <answer-option>XSL Formatting Objects</answer-option>
+        <answer-option>XML Style Formatting</answer-option>
+        <answer-option>Extreme Styling and Formatting Language for Objects</answer-option>
+      </answer-options>
+      <correct-answer>1</correct-answer>
+    </question>
+
+    <question>
+      <question-text>What is the primary purpose of XSL-FO?</question-text>
+      <answer-options>
+        <answer-option>To define the presentation and layout of XML documents for printing or
+          rendering.</answer-option>
+        <answer-option>To query and manipulate XML data.</answer-option>
+        <answer-option>To create web server applications.</answer-option>
+        <answer-option>To manage relational databases.</answer-option>
+        <answer-option>To define the structure of XML documents.</answer-option>
+      </answer-options>
+      <correct-answer>1</correct-answer>
+    </question>
+
+    <question>
+      <question-text>Which element in XSL-FO is used to define page layout and formatting?</question-text>
+      <answer-options>
+        <answer-option>fo:page-sequence</answer-option>
+        <answer-option>fo:layout-master-set</answer-option>
+        <answer-option>fo:block-container</answer-option>
+        <answer-option>fo:inline</answer-option>
+        <answer-option>fo:table</answer-option>
+      </answer-options>
+      <correct-answer>2</correct-answer>
+    </question>
+
+    <question>
+      <question-text>What is the role of an XSL-FO processor in rendering documents?</question-text>
+      <answer-options>
+        <answer-option>It converts XSL-FO documents into formatted output, such as PDF or printed
+          pages.</answer-option>
+        <answer-option>It translates XML documents into XSL-FO documents.</answer-option>
+        <answer-option>It validates XML documents against DTDs and schemas.</answer-option>
+        <answer-option>It executes database queries.</answer-option>
+        <answer-option>It generates HTML documents from XML data.</answer-option>
+      </answer-options>
+      <correct-answer>1</correct-answer>
+    </question>
+
+    <question>
+      <question-text>What types of output formats can be generated from XSL-FO documents?</question-text>
+      <answer-options>
+        <answer-option>PDF, PostScript, HTML, and others.</answer-option>
+        <answer-option>Only HTML and XML.</answer-option>
+        <answer-option>Text and JSON.</answer-option>
+        <answer-option>Images and audio files.</answer-option>
+        <answer-option>Java, C#, Python.</answer-option>
+      </answer-options>
+      <correct-answer>1</correct-answer>
+    </question>
+  </quiz>
+</rootElem>
