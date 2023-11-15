@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rl="http://www.example.org/#">
+  <rdf:Description rdf:about="#XML">
+    <rdf:type rdf:resource="#Language" />
+    <rdf:label>XML</rdf:label>
+    <rdf:definition>XML (расширяемый язык разметки) - язык разметки для кодирования документов в
+      формате, который читабелен как для человека, так и для машины.</rdf:definition>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#XSD">
+    <rdf:type rdf:resource="#SchemaLanguage"/>
+    <rdf:label>XSD</rdf:label>
+    <rdf:definition>XSD (XML Schema Definition) - язык описания схем для XML, определяющий структуру
+        и типы данных.</rdf:definition>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#XSL">
+    <rdf:type rdf:resource="#Language" />
+    <rdf:label>XSL</rdf:label>
+    <rdf:definition>XSL (расширяемый язык таблиц стилей) - язык для преобразования XML-документов в
+      различные форматы.</rdf:definition>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#XSL-FO">
+    <rdf:type rdf:resource="#Language" />
+    <rdf:label>XSL-FO</rdf:label>
+    <rdf:definition>XSL-FO (XSL Formatting Objects) - язык описания форматирования, используемый для
+      создания документов с жестким форматированием.</rdf:definition>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#XPath">
+    <rdf:type rdf:resource="#QueryLanguage" />
+    <rdf:label>XPath</rdf:label>
+    <rdf:definition>XPath - язык запросов для навигации по дереву XML-документа и выбора узлов.</rdf:definition>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#XML-RPC">
+    <rdf:type rdf:resource="#Protocol" />
+    <rdf:label>XML-RPC</rdf:label>
+    <rdf:definition>XML-RPC (XML Remote Procedure Call) - протокол удаленного вызова процедур,
+      использующий XML для кодирования вызовов и ответов.</rdf:definition>
+  </rdf:Description>
+
+  <!-- отношения между ресурсами -->
+  <rdf:Description rdf:about="#XML">
+    <rl:uses rdf:resource="#XSD" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#XSL">
+    <rl:extends rdf:resource="#XML" />
+    <rl:uses rdf:resource="#XPath" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#XSL-FO">
+    <rl:extends rdf:resource="#XML" />
+    <rl:extends rdf:resource="#XSL" />
+    <rl:uses rdf:resource="#XPath" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#XPath">
+    <rl:extends rdf:resource="#XML" />
+  </rdf:Description>
+
+  <rdf:Description rdf:about="#XML-RPC">
+    <rl:uses rdf:resource="#XML" />
+    <rl:uses rdf:resource="#XSL" />
+    <rl:uses rdf:resource="#XPath" />
+  </rdf:Description>
+</rdf:RDF>
